@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container-fluid row" id="title-bar">
+        <div class="col-md-2">
+            <a href="/"><img src="/images/care_logo.jpg" alt="care-portal-home" border="0" height="100" width="130" style="max-width: 130px;"></a>
+        </div>
+        <div class="col-md-10">
+                <p class="display-4">Care Medical and Healthcare Center</p>
+                <p class="h6">123 Example Street, Example</p>
+        </div>
+    </div>    <div id="header" class="container">
+    </div>    <div class="container">
+    <hr />
+    <div class="row mt-2">
+    </div>
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4 m-auto">
+            <h1>Login</h1>
+            <form action="/" method="post">
+                <div class="form-group">
+                    <label for="email">Username</label>
+                    <input type="text" id="logusername" name="logusername" class="form-control" minlength=5 required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="logpassword" name="logpassword" class="form-control" minlength=8 required>
+                </div>
+                <button type="submit" id="loginbtn" class="btn btn-primary btn-lg">Login Now</button>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4 m-auto">
+            <p>Change Your password <a href="/changepassword" class="btn btn-info btn-sm">Change Password</a></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4 m-auto">
+            <p>Click  <a href="/signup" class="btn-info">here</a>  for new registration.</p>
+        </div>
+    </div>
+</div>
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <span class="text-muted">Developed By Soief Ali.</span>
+        </div>
+        <div class="col text-center">Welcome </div>
+        <div class="col">
+        </div>
+      </div>
+    </div>
+  </footer>  </body>
+  <script src="/javascripts/patienthub.js"></script>
+</html>
